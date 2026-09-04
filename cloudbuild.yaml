@@ -1,0 +1,18 @@
+steps:
+  - name: "node:24"
+    entrypoint: "bash"
+    args:
+      - "-c"
+      - |
+        npm ci
+        npm run build
+
+  - name: "gcr.io/google.com/cloudsdktool/google-cloud-cli"
+    entrypoint: "bash"
+    args:
+      - "-c"
+      - |
+        gcloud app deploy app.yaml --quiet
+
+options:
+  logging: CLOUD_LOGGING_ONLY
