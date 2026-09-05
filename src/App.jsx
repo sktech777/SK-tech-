@@ -220,7 +220,12 @@ function Layout({children}) {
       </div>
       <div><h4>Explore</h4><Link to="/ai-tools">AI Tools</Link><Link to="/video-editing">Video Editing</Link><Link to="/websites">Websites</Link><Link to="/blog">Blog</Link></div>
       <div><h4>Company</h4><Link to="/about">About</Link><Link to="/contact">Contact</Link><Link to="/privacy-policy">Privacy</Link><Link to="/terms">Terms</Link><Link to="/disclaimer">Disclaimer</Link></div>
-      <div><h4>Social</h4><a href="YOUR_FACEBOOK_URL">Facebook</a><a href="YOUR_TIKTOK_URL">TikTok</a><a href="YOUR_YOUTUBE_URL">YouTube</a><a href="YOUR_INSTAGRAM_URL">Instagram</a></div>
+      <div><h4>Social</h4>
+  <a href="https://www.facebook.com/share/1SgM9ZE7PP/" target="_blank" rel="noopener noreferrer">Facebook</a>
+  <a href="https://www.tiktok.com/@sk.tech78" target="_blank" rel="noopener noreferrer">TikTok</a>
+  <a href="https://youtube.com/@sktecchh" target="_blank" rel="noopener noreferrer">YouTube</a>
+  <a href="https://www.instagram.com/sktech_77" target="_blank" rel="noopener noreferrer">Instagram</a>
+</div>
       <div className="copyright">© 2026 SK TECH7. All rights reserved.</div>
     </footer>
   </div>
